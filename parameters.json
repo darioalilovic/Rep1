@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "dbc1e238-1e81-4f2a-b4ab-7a95b7503ad7"
+        },
+        "name": {
+            "value": "NordcloudQ"
+        },
+        "location": {
+            "value": "West Europe"
+        },
+        "hostingPlanName": {
+            "value": "ASP-NordCloudQ"
+        },
+        "serverFarmResourceGroup": {
+            "value": "NordcloudQ"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "sku": {
+            "value": "PremiumV2"
+        },
+        "skuCode": {
+            "value": "P1v2"
+        },
+        "workerSize": {
+            "value": "3"
+        },
+        "workerSizeId": {
+            "value": "3"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "DOCKER|ghost:4.41.3-alpine"
+        },
+        "dockerRegistryUrl": {
+            "value": "https://index.docker.io"
+        },
+        "dockerRegistryUsername": {
+            "value": ""
+        },
+        "dockerRegistryPassword": {
+            "value": null
+        },
+        "dockerRegistryStartupCommand": {
+            "value": ""
+        }
+    }
+}
